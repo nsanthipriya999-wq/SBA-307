@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #111111;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Top Section */
+.topGrid {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #286da5;
+    width: 100%;
+}
+
+.topGrid h1 {
+    font-size: 4em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.topGrid sub {
+    display: block;
+    font-size: 2em;
+    color: #ccc;
+}
+
+/* Navbar */
+.middleGrid ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #333;
+    padding: 15px 0;
+}
+
+.middleGrid ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 22px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.middleGrid ul li a:hover {
+    background-color: #36c698;
+}
+
+/* Dropdown */
+.Topics {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #111;
+    color: white;
+    border: 2px solid #333;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.Topics:hover {
+    background-color: #36c698;
+}
+
+/* Bottom Grid */
+.bottomGrid {
+    flex: 1 1 100px;
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+    background-color: #444;
+    color: white;
+    position: relative;
+}
+
+.bottomGrid img {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100%;
+    height: auto;
+    transform: translate(0, 0);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.bottomGrid img:hover {
+    transform: translate(50px, 30px);
+}
+
+.display {
+    background-color: #555;
+    padding: 20px;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    body {
+        background-color: lightblue;
+    }
+}

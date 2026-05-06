@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Questions & Answers</title>
+    <style>
+        body {
+            background-color: #b4b7ba;
+            color: #ebe4e4;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            width: 100%;
+            background-color: #c5c0c0;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .qa {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #2b1212;
+            border-radius: 8px;
+        }
+
+        .question {
+            font-weight: bold;
+            color: #11eb52;
+            margin-bottom: 8px;
+            width: 60%;
+
+        }
+
+        .answer {
+            margin-left: 15px;
+            line-height: 1.6;
+            width: 60%;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 style="color:#2b1212;text-align:center;">CSS Questions & Answers</h1>
+
+        <div class="qa">
+            <div class="question">1. What is CSS?</div>
+            <div class="answer">CSS stands for Cascading Style Sheets. It describes how HTML elements are displayed on
+                screen, paper, or other media. CSS allows separation of content from design.</div>
+        </div>
+
+        <div class="qa">
+            <div class="question">2. What are the different types of CSS?</div>
+            <div class="answer">
+                - Inline CSS: Written directly inside an HTML element using the style attribute.<br>
+                - Internal CSS: Defined within a &lt;style&gt; tag inside the &lt;head&gt; section.<br>
+                - External CSS: Written in a separate .css file and linked with the &lt;link&gt; tag.
+            </div>
+        </div>
+
+        <div class="qa">
+            <div class="question">3. What is the difference between class and ID selectors?</div>
+            <div class="answer">
+                - ID Selector (#id): Unique per element.<br>
+                - Class Selector (.class): Can be reused across multiple elements.
+            </div>
+        </div>
+
+        <div class="qa">
+            <div class="question">4. What is the difference between em and rem units?</div>
+            <div class="answer">
+                - em: Relative to the font-size of the parent element.<br>
+                - rem: Relative to the font-size of the root element (html).
+            </div>
+        </div>
+
+        <div class="qa">
+            <div class="question">5. What is the difference between relative, absolute, and fixed positioning?</div>
+            <div class="answer">
+                - relative: Positioned relative to its normal position.<br>
+                - absolute: Positioned relative to the nearest positioned ancestor.<br>
+                - fixed: Positioned relative to the viewport.
+            </div>
+        </div>
+
+        <div class="qa">
+            <div class="question">6. What is z-index in CSS?</div>
+            <div class="answer">It defines the stack order of overlapping elements. Higher values appear on top.</div>
+        </div>
+
+        <div class="qa">
+            <div class="question">7. What is the difference between inline, block, and inline-block elements?</div>
+            <div class="answer">
+                - inline: Does not start on a new line, width and height ignored.<br>
+                - block: Starts on a new line, width and height respected.<br>
+                - inline-block: Behaves like inline but width and height are respected.
+            </div>
+        </div>
+
+        <div class="qa">
+            <div class="question">8. What is the difference between visibility: hidden and display: none?</div>
+            <div class="answer">
+                - visibility: hidden: Element is invisible but occupies space.<br>
+                - display: none: Element is removed from the layout entirely.
+            </div>
+        </div>
+
+        <div class="qa">
+            <div class="question">9. What are pseudo-classes in CSS?</div>
+            <div class="answer">Special keywords added to selectors to style elements in a specific state (e.g., :hover,
+                :focus, :nth-child).</div>
+        </div>
+
+        <div class="qa">
+            <div class="question">10. What is the difference between relative, absolute, fixed, and sticky positioning?
+            </div>
+            <div class="answer">
+                - relative: Moves relative to its normal position.<br>
+                - absolute: Moves relative to the nearest positioned ancestor.<br>
+                - fixed: Fixed to viewport, stays on scroll.<br>
+                - sticky: Acts like relative until it crosses a threshold, then behaves like fixed.
+            </div>
+        </div>
+
+
+    </div>
+    <a href="index.html">⬅ Back</a>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMania</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img {
+            width: 9%;
+            justify-content:left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- TOP -->
+        <div class="topGrid">
+            <h1>Welcome to KMania!</h1>
+            <sub>Have Fun Learning!!</sub>
+        </div>
+
+        <!-- Navbar -->
+        <div class="middleGrid">
+            <ul>
+                <li><a href="./index.html"><img src="Home.gif" alt="home" >Home</a></li>
+                <li><a href="./aboutus.html">About Us</a></li>
+                <li>
+                    <select class="Topics" onchange="if(this.value) location.href=this.value;">
+                        <option value="">Topics</option>
+                        <option value="./htmlqanda.html">HTML</option>
+                        <option value="./cssqaa.html">CSS</option>
+                    </select>
+                </li>
+                <li><a href="./contactus.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Bottom grid-->
+        <div class="bottomGrid">
+            <img src="learn-html.png" alt="HTML Image">
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
